@@ -6,9 +6,9 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      showPopup: true,
-      startDate: '2018-03-01',
-      endDate: '2018-03-31',
+      showPopup: false,
+      startDate: '',
+      endDate: '',
       userName: '',
       password: '',
       channels:
