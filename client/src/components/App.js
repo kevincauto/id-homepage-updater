@@ -262,6 +262,12 @@ class App extends Component {
   handlePassword(e) {
     this.setState({ password: e.target.value })
   }
+  handleStartDate(e) {
+    this.setState({ startDate: e.target.value });
+  }
+  handleEndDate(e) {
+    this.setState({ endDate: e.target.value });
+  }
   renderPopup() {
     return (
       <div className="popup" >
