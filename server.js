@@ -4,8 +4,8 @@ const port = process.env.PORT || 5000;
 var bodyParser = require('body-parser')
 app.use(bodyParser.json());
 
-const Nightmare = require('nightmare')
-const nightmare = Nightmare({ show: true, typeInterval: 20 })
+const Nightmare = require('nightmare');
+const nightmare = Nightmare({ show: true, typeInterval: 5 });
 
 
 // .click('#saveForm') replace by .goto('https://www.aegisdentalnetwork.com/admin/entries/page/3/')
